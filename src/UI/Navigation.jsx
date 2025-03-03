@@ -2,9 +2,9 @@ import List from "../Components/List";
 
 export default function Navigation() {
   return (
-    <nav>
-      <p>logo</p>
-      <ul>
+    <nav className="bg-black text-white flex items-center justify-between px-[5%] py-6">
+      <p className="text-3xl">Innovator</p>
+      <ul className="flex items-center gap-8 text-xl">
         <List content="Design" />
         <List content="Photo" />
         <List content="Art" />

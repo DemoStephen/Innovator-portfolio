@@ -13,7 +13,7 @@ export default function Navigation() {
         <List content="Contact" />
       </ul>
       <button className="md:hidden">menu</button>
-      <section className="absolute top-[5.375rem] left-0 right-0 h-[calc(100vh-5.375rem)] bg-black flex px-[5%] md:hidden">
+      <section className="absolute top-[5.375rem] left-0 right-0 h-[calc(100vh-5.375rem)] bg-black flex px-[5%] opacity-0 md:hidden">
         <ul className="flex flex-col w-full justify-center gap-8 text-xl ">
           <List content="Design" />
           <List content="Photo" />

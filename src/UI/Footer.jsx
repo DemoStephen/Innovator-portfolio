@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 export default function Footer() {
-
   return (
     <footer className="bg-black text-slate-50 px-[5%] py-14 flex flex-col gap-8 md:flex-row justify-between">
       <section className="flex flex-col gap-12">

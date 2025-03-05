@@ -55,9 +55,9 @@ export default function Home() {
 
       <section className="px-[5%] py-14">
         <h2 className="text-4xl text-center">
-          <span className="text-blue-700">
-            <Link to="contact">Say hi</Link>
-          </span>{" "}
+          <Link to="contact" className="text-blue-700">
+            Say hi
+          </Link>
           👋 and tell me about your project.{" "}
         </h2>
       </section>
